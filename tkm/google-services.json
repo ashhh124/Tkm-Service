@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "994491524409",
+    "project_id": "tkms-b837b",
+    "storage_bucket": "tkms-b837b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:994491524409:android:71799f3a8e94684ba234e8",
+        "android_client_info": {
+          "package_name": "com.serv.tkm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "994491524409-adalg6ioot9g5u43dammhqdqk0roidrp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-k1_MlUs7Fy3Z3RL4kSLunfOdTDeBOSk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "994491524409-adalg6ioot9g5u43dammhqdqk0roidrp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

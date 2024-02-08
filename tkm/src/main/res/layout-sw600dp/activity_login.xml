@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context="com.serv.tkm.Login">
+
+    <Button
+        android:id="@+id/btnsend4"
+        android:layout_width="210dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/btnbg"
+        android:fontFamily="sans-serif"
+        android:text="Регистрация"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/passauth"
+        app:layout_constraintStart_toStartOf="@+id/passauth"
+        app:layout_constraintTop_toBottomOf="@+id/btnsend2" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:scaleType="fitStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/passauth"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="6dp"
+        android:background="@drawable/editbg"
+        android:drawableStart="@drawable/baseline_password_24"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="Введите пароль"
+        android:inputType="textPassword"
+        android:paddingStart="15dp"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/emailauth"
+        app:layout_constraintStart_toStartOf="@+id/emailauth"
+        app:layout_constraintTop_toBottomOf="@+id/emailauth"
+        tools:ignore="DuplicateClickableBoundsCheck" />
+
+    <Button
+        android:id="@+id/btnsend2"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/btnbg1"
+        android:fontFamily="sans-serif"
+        android:text="Войти"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/passauth"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/passauth"
+        app:layout_constraintTop_toBottomOf="@+id/passauth" />
+
+    <EditText
+        android:id="@+id/emailauth"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="336dp"
+        android:background="@drawable/editbg"
+        android:drawableStart="@drawable/baseline_email_24"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="Электронная почта"
+        android:paddingStart="15dp"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Забыли пароль?"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/passauth"
+        app:layout_constraintStart_toStartOf="@+id/passauth"
+        app:layout_constraintTop_toBottomOf="@+id/btnsend2" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:buttonTint="@color/black"
+        android:text="Запомните меня"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/btnsend2"
+        app:layout_constraintStart_toEndOf="@+id/btnsend2"
+        app:layout_constraintTop_toTopOf="@+id/btnsend2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
